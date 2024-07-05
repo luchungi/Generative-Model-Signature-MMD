@@ -13,18 +13,18 @@ TBA
 # Contents
 
 The notebooks are used for training:
-1. The [generative model](https://github.com/luchungi/Generative-Model-Signature-MMD/train_model.ipynb) using the MMD with a signature kernel
-2. The [reinforcement learning agent](https://github.com/luchungi/Generative-Model-Signature-MMD/trading.ipynb) using the trained generative model
-3. The [robust reinforcement learning agent](https://github.com/luchungi/Generative-Model-Signature-MMD/trading.ipynb) using the trained generative model with robust noise
+1. The [generative model](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/train_model.ipynb) using the MMD with a signature kernel
+2. The [reinforcement learning agent](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/trading.ipynb) using the trained generative model
+3. The [robust reinforcement learning agent](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/robust_trading.ipynb) using the trained generative model with robust noise
 
-The pytorch model architecture is in ['generators.py'](https://github.com/luchungi/Generative-Model-Signature-MMD/model/generators.py)
-The signature kernel related functions are in [kernels.py](https://github.com/luchungi/Generative-Model-Signature-MMD/sigkernel/kernels.py) which is based on code modified from this [repo](https://github.com/tgcsaba/KSig).
-The loss function to train the generative model is in ['loss.py'](https://github.com/luchungi/Generative-Model-Signature-MMD/sigkernel/loss.py)
-All data related functions can be found in ['data.py'](https://github.com/luchungi/Generative-Model-Signature-MMD/utils/data.py)
-The reinforcement learning environment for portfolio management is in [env.py](https://github.com/luchungi/Generative-Model-Signature-MMD/utils/env.py)
-The Lambert transformation function is in [gaussianize.py](https://github.com/luchungi/Generative-Model-Signature-MMD/utils/gaussianize.py) which is taken from this [repo]((https://github.com/gregversteeg/gaussianize))
-All training related routines are in ['train.py](https://github.com/luchungi/Generative-Model-Signature-MMD/train.py)
+The pytorch model architecture is in ['generators.py'](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/model/generators.py).  
+The signature kernel related functions are in [kernels.py](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/sigkernel/kernels.py) which is based on code modified from this [repo](https://github.com/tgcsaba/KSig).  
+The loss function to train the generative model is in ['loss.py'](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/sigkernel/loss.py).  
+All data related functions can be found in ['data.py'](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/utils/data.py).  
+The reinforcement learning environment for portfolio management is in [env.py](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/utils/env.py).  
+The Lambert transformation function is in [gaussianize.py](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/utils/gaussianize.py) which is taken from this [repo](https://github.com/gregversteeg/gaussianize).  
+All training related routines are in ['train.py](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/train.py).  
 
-The S&P 500 data sourced from Yahoo Finance are [here](ht
-The omitted figures relating to the return autocorrelation of COT-GAN generated sequences can be found [here](https://github.com/luchungi/Generative-Model-Signature-MMD/data/)
-Training related metrics can be found in the tensorboard logs [here](https://github.com/luchungi/Generative-Model-Signature-MMD/runs/)
+The S&P 500 data sourced from Yahoo Finance in [/data](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/data/).  
+The omitted figures relating to the return autocorrelation of COT-GAN generated sequences can be found in [/figures/cotgan](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/figures/cotgan/).  
+Training related metrics can be found in the tensorboard logs in [/runs](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/runs/).  
