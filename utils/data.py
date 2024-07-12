@@ -149,9 +149,9 @@ class MA_path_generator():
 
         # Gaussianize data and train MA model
         df, lambert_transform = gaussianize_data(df, col_idx)
-        # ma_model = arch.arch_model(df.loc[:,'gaussianized'], mean=MEAN_MODEL, p=self.p, q=Q_CONST, rescale=True)
-        # self.res = ma_model.fit(update_freq=0)
-        # print(self.res.summary())
+        ma_model = arch.arch_model(df.loc[:,'gaussianized'], mean=MEAN_MODEL, p=self.p, q=Q_CONST, rescale=True)
+        self.res = ma_model.fit(update_freq=0)
+        print(self.res.summary())
 
         # prepare data for generator
         self.generator = generator
