@@ -8,7 +8,7 @@ Generating synthetic financial time series data that accurately reflects real-wo
 
 # Preprint
 
-TBA
+[Link to paper](https://arxiv.org/abs/2407.19848)
 
 # Contents
 
