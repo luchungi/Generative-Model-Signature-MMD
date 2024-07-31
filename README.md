@@ -26,5 +26,5 @@ The Lambert transformation function is in [gaussianize.py](https://github.com/lu
 All training related routines are in ['train.py](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/train.py).  
 
 The S&P 500 data sourced from Yahoo Finance in [/data](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/data/).  
-The omitted figures relating to the return autocorrelation of COT-GAN generated sequences can be found in [/figures/cotgan](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/figures/cotgan/).  
+The figures omitted from the paper can be found in [/figures](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/figures/).  
 Training related metrics can be found in the tensorboard logs in [/runs](https://github.com/luchungi/Generative-Model-Signature-MMD/blob/main/runs/).  
