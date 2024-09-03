@@ -59,6 +59,8 @@ class MADataset(Dataset):
             assert noise_dim is not None, 'noise_dim must be specified for MA model'
             self.noise_dim = noise_dim
             self.p = p
+        else:
+            self.p = 0
         self.dtype = DATATYPE
 
         # Gaussianize and fit data for MA model
